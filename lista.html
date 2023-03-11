@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+            <meta charset="UTF-8">
+
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+                        <title>Listas</title>
+
+                            <link rel="stylesheet" href="style.css">
+
+        <style>
+
+  
+            body main, header, footer{
+                padding: 25px;
+                background-color: #76d2e2;
+                color: #000000;
+                font-size: 25px;
+            }
+    
+            .dark-mode header, main, footer{
+                background-color: black;
+                color: #a1faff;
+            }
+            .botao-fixado {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+            }
+    
+        </style> 
+
+
+    </head>
+
+    <body>
+
+        <img src="https://cdn-icons-png.flaticon.com/512/5558/5558226.png" onclick="darkMode()" class="botao-fixado" id="img-bt"/>
+
+        <header>
+
+            <h1>Acessibilidade Digital - Por Thauane Souza do Nascimento.</h1>
+
+        </header>
+
+        <nav>
+
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="veja.html">Imagens e Vídeos</a></li>
+                
+            </ul>
+        
+        
+              <form>
+
+                <input type="search" name="q" placeholder="Procurar">
+
+                <input type="submit" value="!">
+
+              </form>
+            
+
+        </nav> 
+        
+        <main>
+
+            <section>
+
+                <h2> Alguns exemplos de tecnologias assistivas:</h2>
+
+                    <ol>
+                        <li>Auxílio para a vida diária e prática;</li>
+                        <li>Comunicação aumentativa e/ou alternativa;</li>
+                        <li>Recursos de acessibilidade ao computador;</li>
+                        <li>Sistemas de controle de ambiente;</li>
+                        <li>Projetos arquitetônicos para acessibilidade;</li>
+                        <li>Órteses e próteses;</li>
+                        <li>Adequação de postura;</li>
+                        <li>Auxílio de mobilidade;</li>
+                        <li>Auxílios para qualificação da habilidade visual e recursos que ampliam a informação para 
+                        pessoas com baixa visão ou cegas;</li>
+                        <li>Auxílios para ampliação da habilidade auditiva e para autonomia na comunicação de 
+                        pessoas com déficit auditivo, surdez ou surdocegueira;</li>
+                        <li>Adequação em veículos e em ambientes de acesso ao veículo;</li>
+                        <li>Esporte e lazer.</li>
+                    </ol>
+
+            </section>
+
+        </main>
+
+        <footer>
+
+            <p> Todos os direitos reservados </p> <!--a mim e à todos os surtos que eu estou tendo internamente enquanto estou fazendo esse site,
+                que meu cabelo não caia de tanto stress, amem-->
+
+        </footer>
+
+            <div vw class="enabled">
+
+                    <div vw-access-button class="active"></div>
+
+                <div vw-plugin-wrapper>
+
+                    <div class="vw-plugin-top-wrapper"></div>
+
+            </div>
+
+        </div>
+                 
+                        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"> </script>
+
+                <script> new window.VLibras.Widget('https://vlibras.gov.br/app') </script>
+
+        <script type="text/javascript" src="script.js"></script>
+
+    </body>
+
+</html>

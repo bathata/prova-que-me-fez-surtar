@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+            <meta charset="UTF-8">
+
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+                        <title>veja aqui algumas imagens e videos sobre acessibilidade digital</title>
+
+                            <link rel="stylesheet" href="style.css">
+
+            <style>
+
+        
+                body main, header, footer{
+                    padding: 25px;
+                    background-color: #76d2e2;
+                    color: #000000;
+                    font-size: 25px;
+                }
+
+                .dark-mode header, main, footer{
+                    background-color: black;
+                    color: #a1faff;
+                }
+
+                .botao-fixado {
+                    position: fixed;
+                    bottom: 20px;
+                    right: 20px;
+                }
+
+            </style> 
+
+    </head>
+
+    <body>
+
+            <img src="https://cdn-icons-png.flaticon.com/512/5558/5558226.png" onclick="darkMode()" class="botao-fixado" id="img-bt"/>
+
+                    <script>
+
+                        function darkMode(){
+                            let minhaImagem = document.querySelector('img');
+                            var element = document.body;
+                            element.classList.toggle("dark-mode");
+                            let meuSrc= minhaImagem.getAttribute('src');
+                            if(meuSrc === 'https://cdn-icons-png.flaticon.com/512/5558/5558226.png'){
+                                minhaImagem.setAttribute ('src', 'https://cdn-icons-png.flaticon.com/512/5262/5262027.png');
+                            }else {
+                            
+                                minhaImagem.setAttribute ('src','https://cdn-icons-png.flaticon.com/512/5558/5558226.png');
+                            }
+                        }
+
+                    </script>
+
+            <header>
+
+                <h1>Acessibilidade Digital - Por Thauane Souza do Nascimento.</h1>
+
+            </header>
+
+            <nav>
+
+                <ul>
+                    <li><a href="lista.html">Lista</a></li>
+                    <li><a href="index.html">início</a></li>
+                    
+                </ul>
+            
+            
+                <form>
+
+                    <input type="search" name="q" placeholder="Procurar">
+
+                    <input type="submit" value="!">
+
+                </form>
+                
+
+            </nav> 
+            
+            <main>
+
+                <section>
+
+                    <h2> Aqui, temos imagens e videos sobre a acessibilidade digitil</h2>
+
+                    <img src="imagens/1.jpeg" alt="Uma mão clicando em um celular com um 'headphone" class="img1">
+
+                    <img src="imagens/2.png" alt="Um celular com uma pessoa de braços e pernas entreabertos" class="img1">
+
+                    <img src="imagens/3.png" alt="simbolo de acessibilidade" class="img1">
+
+                    <iframe width="510" height="305" margin-left="40" margin-right="40px" src="https://www.youtube.com/embed/zyjGVsc5ypE" title="Mitos e Verdades
+                    sobre Testes de Acessibilidade com Marcelo Sales  | 💻 Zup Open Talks 🚀" frameborder="0" allow="accelerometer;
+                    autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                </section>
+
+            </main>
+
+            <footer>
+
+                <p> Todos os direitos reservados </p> <!--a mim e à todos os surtos que eu estou tendo internamente enquanto estou fazendo esse site,
+                    que meu cabelo não caia de tanto stress, amem-->
+
+            </footer>
+            
+                <div vw class="enabled">
+
+                        <div vw-access-button class="active"></div>
+
+                    <div vw-plugin-wrapper>
+
+                        <div class="vw-plugin-top-wrapper"></div>
+
+                    </div>
+
+                </div>
+                    
+                            <script src="https://vlibras.gov.br/app/vlibras-plugin.js"> </script>
+
+                    <script> new window.VLibras.Widget('https://vlibras.gov.br/app') </script>
+                
+    </body>
+
+</html>

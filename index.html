@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+            <meta charset="UTF-8">
+
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+                        <title>Prova Prática sobre Acessibilidade digital</title>
+
+                            <link rel="stylesheet" href="style.css">
+
+            <style>
+
+    
+                body main, header, footer{
+                    padding: 25px;
+                    background-color: #76d2e2;
+                    color: #000000;
+                    font-size: 25px;
+                }
+        
+                .dark-mode header, main, footer{
+                    background-color: black;
+                    color: #a1faff;
+                }
+
+                .botao-fixado {
+                    position: fixed;
+                    bottom: 20px;
+                    right: 20px;
+                }
+        
+            </style> 
+
+
+        </head>
+
+
+
+        <body>
+
+                    <img src="https://cdn-icons-png.flaticon.com/512/5558/5558226.png" onclick="darkMode()" class="botao-fixado" id="img-bt"/>
+                    
+            <header>
+
+                <h1>Acessibilidade Digital - Por Thauane Souza do Nascimento.</h1>
+
+            </header>
+
+            <nav>
+
+                <ul>
+
+                    <li><a href="lista.html">Lista</a></li>
+
+                    <li><a href="veja.html">Imagens e Vídeos</a></li>
+                    
+                </ul>
+            
+            
+                <form>
+
+                    <input type="search" name="q" placeholder="Procurar">
+
+                    <input type="submit" value="!">
+
+                </form>
+                
+
+            </nav>  
+            
+            <main>
+                
+                <section>
+
+                    <h2> Por que a acessibilidade digital é importante?</h2><br>
+
+                    <p> A acessibilidade, de modo geral, é um conceito que visa que todos tenham autonomia e capacidade de ter
+                        acesso à algo, desta forma, 'perrengues não são passados, e, com os meios digitais, isso não seria
+                        diferente. A acessibilidade digital visa que todas as pessoas tenham a capacidade de consumir algum
+                        tipo de conteudo, incluindo uma serie de artificios em sites para que possa facilitar a vida dessas
+                        pessoas em meios digitais e para que garanta um acesso igualitario de informações e para ajudar na
+                        compreensão do que está sendo passado.</p><br><br>
+                    
+                </section>
+
+
+            </main>
+
+            <footer>
+
+                <p> Todos os direitos reservados </p> <!--a mim e à todos os surtos que eu estou tendo internamente enquanto estou fazendo esse site,
+                    que meu cabelo não caia de tanto stress, amem-->
+
+            </footer>
+            
+                    <div vw class="enabled">
+                        <div vw-access-button class="active"></div>
+                    <div vw-plugin-wrapper>
+                        <div class="vw-plugin-top-wrapper"></div>
+                    </div>
+                    </div>
+                    
+                            <script src="https://vlibras.gov.br/app/vlibras-plugin.js"> </script>
+
+                    <script> new window.VLibras.Widget('https://vlibras.gov.br/app') </script>
+
+            <script type="text/javascript" src="script.js"></script>
+            
+    </body>
+
+</html>

@@ -1,0 +1,116 @@
+/* configuração de página */
+
+ html, body {
+    margin: 0;
+    padding: 0;
+ }
+  
+ html {
+    font-size: 10px;
+    background-color: #ffffff;
+ }
+  
+ body {
+    width: 96%;
+    margin: 0 auto;
+ }
+ header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-bottom: 10px;
+ }
+ main{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    margin-bottom: 10px;
+ }
+ nav {
+    height: 75px;
+    display: flex;
+    margin-bottom: 10px;
+    background-color: #1e98ad;
+ }
+  
+ nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+ }
+  
+ nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+ }
+  
+ nav a {
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+ }
+ nav form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 2em;
+ }
+ input {
+    font-size: 1.6rem;
+    height: 32px;
+ }
+ input[type="search"] {
+    flex: 3;
+ }
+ input[type="submit"] {
+    flex: 1;
+    margin-left: 1rem;
+    background: #333;
+    border: 0;
+    color: white;
+ }
+ footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-bottom: 10px;
+ }
+/* botão do dark mode*/
+
+ #img-bt{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+ }
+
+/* edição de H's e P (texto nmum geral) e imagens*/
+
+
+ h1 {
+    font-size: 4rem;
+    text-align: center;
+ }
+
+ h2 {
+    text-align: center;
+    height: 50px;
+    font-size: 3rem;
+ }
+
+ p {
+    font-family: "Candara";
+    font-size: 2rem;
+    margin-left: 10px;
+ } 
+
+ .img1{
+    height: 305px;
+    width: 235px;
+    margin-left: 40px;
+    margin-right: 40px;
+ }
